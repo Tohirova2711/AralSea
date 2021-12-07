@@ -1,0 +1,29 @@
+@mixin img ($eni:50%, $boyi:20%, $radius:50%,$border:dotted,$left:10px,$object:cover) {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 1px dotted red;
+    padding-left: 10px;
+    object-fit: cover;
+}
+@mixin text ($color:green,$font:40px,$align:center){
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+@mixin button ($orqafon:red,$eni:150px,$boyi:20px,$boder:none,$font:20px,$justify:center) {
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px green;
+    margin-top: 20px;
+}
+@mixin label(){
+    font-size: 25px;
+    color: green;
+    text-shadow: 0px 0px 10px green;
+}

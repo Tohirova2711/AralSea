@@ -1,0 +1,19 @@
+@import 'extrastyle';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    @include img();
+}
+p{
+    @include text();
+}
+button{
+    @include button();
+}
+label{
+    @include label();
+}

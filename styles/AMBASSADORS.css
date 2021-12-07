@@ -1,0 +1,150 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Satisfy&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        header {
+            height: 100vh;
+            background-image: url(/source/AMBASSADORS.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 18%;
+            font-size: 100px;
+            line-height: 150px;
+            color: #333333;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 23px;
+        }
+        
+        .nav-links a {
+            display: inline-block;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 8px;
+            font-size: 22px;
+            color: black;
+        }
+        
+        .nav-register {
+            display: flex;
+            align-items: center;
+            width: 20%;
+        }
+        
+        .nav-register a {
+            padding: 3px 18px;
+            border: 1px solid black;
+            margin-left: 20px;
+        }
+        
+        .content {
+            display: flex;
+            margin-top: 100px;
+        }
+        
+        .content-text {
+            margin-left: 32px;
+        }
+        
+        .content h1 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 48px;
+            color: #000000;
+        }
+        
+        .content p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            color: #000000;
+            margin-top: 15px;
+        }
+        
+        footer .footer-text {
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1400px;
+            margin-top: 152px;
+        }
+        
+        .footer-text-content {
+            display: flex;
+            margin-top: 55px;
+        }
+        
+        .footer-text-content p {
+            margin-top: 25px;
+        }
+        
+        .footer-text-content div {
+            padding-left: 30px;
+        }
+        
+        .footer-text-content1 {
+            display: flex;
+            margin-top: 10px;
+        }
+        
+        .footer-text-content1 div {
+            padding-left: 59px;
+        }
+        
+        .footer-text-content1 div:last-child {
+            margin-top: 15px;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            background-color: #4B7134;
+            height: 81px;
+            padding-top: 24px;
+            margin-top: 28px;
+        }
+        
+        .footer-content1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .footer-content-img .img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            margin-left: 30px;
+        }
+        
+        .footer-content-text a {
+            padding-left: 30px;
+            color: white;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 33px;
+        }

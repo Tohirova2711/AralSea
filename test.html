@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card{
+            position: relative;
+            border: 1px solid red;
+            max-width: 385px;
+            transition: all ease 1s;
+        }
+        .card-slider{
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.568);
+            width: 100%;
+            height: 0%;
+            overflow: hidden;
+            transition: all ease 1s;
+        }
+
+        h1{
+            color: #fff;
+            text-align: center;
+        }
+
+        img{
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .card:hover .card-slider{
+            height: 100%;
+            transition: all ease 1s;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="card">
+        <img src="./source/section1/Grandfather_granddaughter_photo_2019-12-19_10-38-21 5.png" alt="">
+        <div class="card-slider">
+            <h1>Salom Ziyoda</h1>
+        </div>
+    </div>
+
+</body>
+</html>
